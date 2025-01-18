@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Al-Nourain
+
+![Al-Nourain Logo](./public/images/readymadeui.svg)
+
+Welcome to **Al-Nourain**, your trusted partner in high-quality signages and digital displays. We specialize in delivering customized solutions that enhance your brand's visibility and communicate your message effectively.
+
+## Table of Contents
+
+- [About Us](#about-us)
+- [Services](#services)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact Us](#contact-us)
+
+## About Us
+
+At **Al-Nourain International Trading Company**, we pride ourselves on delivering top-notch signage solutions tailored to meet the unique needs of diverse industries. Our expertise spans across various domains, ensuring that your brand stands out with precision and creativity.
+
+## Services
+
+We offer a comprehensive range of services to cater to all your signage and display needs:
+
+### 1. Signages
+High-quality signages tailored to your brand, ensuring optimal visibility and impact.
+
+<!-- ### 2. Vinyl Graphics
+Durable vinyl graphics suitable for both indoor and outdoor applications, enhancing the aesthetic appeal of any space. -->
+
+### 3. 3D Signage
+Innovative 3D signage solutions that add depth and dimension to your brand presence.
+
+### 4. Digital Displays
+Cutting-edge digital signage solutions that engage audiences with dynamic content.
+
+## Features
+
+- **Expert Craftsmanship**
+  Rely on our years of expertise in designing and manufacturing premium signages and digital displays. We ensure top-notch quality and precision in every project, addressing the unique requirements of various businesses and industries.
+
+- **Innovative Solutions**
+  We incorporate the latest technology and creative design approaches to develop visually striking and functional signage solutions. Our forward-thinking strategies ensure your brand stands out in the marketplace and communicates effectively with your audience.
+
+- **Tailored Services**
+  Benefit from our custom-made signage solutions designed to reflect your brand and meet your specific business needs. Whether for indoor or outdoor use, our products are carefully crafted to combine aesthetics with functionality, ensuring lasting impact.
+
+- **Collaborative Partnership**
+  We believe in building long-term relationships with our clients. Our team works closely with you, offering support throughout the process and beyond. With a customer-first approach, we ensure that our signage solutions elevate your business and contribute to your success.
+
+- **Process Transparency**
+  We keep you informed at every stage, from the initial design concept to final installation. Our transparent approach ensures you’re always up to date, fostering trust and guaranteeing a signage solution that meets your expectations.
+
+## Technologies Used
+
+- **Front-End:** React, TypeScript, Tailwind CSS
+- **Build Tools:** Vite
+- **Version Control:** Git & GitHub
+- **Design:** SVG, Responsive Design Principles
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to set up the project locally on your machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js** (v14 or later)
+- **npm** (v6 or later) or **yarn**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/syedd07/nourain.git
+   cd nourain
