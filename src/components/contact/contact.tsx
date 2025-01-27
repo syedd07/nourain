@@ -2,30 +2,33 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <section className="py-12 px-4 sm:px-10 bg-white">
+        <section className="relative py-12 px-4 sm:px-10 ">
+            {/* Background behind entire section */}
+            <div className="absolute bottom-0 left-0 right-0 top-0">
+                
+            </div>
+           
+
             <h2
-                className="mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
+                className="mb-8 ml-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
             >
                 Get in Touch
             </h2>
-            <p className="text-lg text-gray-600">
+
+            <p className="text-lg text-gray-600 ml-8">
                 Have a specific inquiry or looking to explore new opportunities? Our
                 experienced team is ready to engage with you.
             </p>
+
             <div className="max-w-6xl mx-auto bg-white p-4 font-[sans-serif]">
                 <div className="grid md:grid-cols-2 gap-16 items-center relative overflow-hidden p-8 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] before:absolute before:right-0 before:w-[300px] before:bg-blue-400 before:h-full max-md:before:hidden">
+                    
                     <div>
                         <form>
                             <div className="space-y-4 mt-8">
                                 <input
                                     type="text"
                                     placeholder="Full Name"
-                                    className="px-2 py-3 bg-white w-full text-gray-800 text-sm border-b border-gray-300 focus:border-blue-600 outline-none"
-                                    required
-                                />
-                                <input
-                                    type="text"
-                                    placeholder="Street"
                                     className="px-2 py-3 bg-white w-full text-gray-800 text-sm border-b border-gray-300 focus:border-blue-600 outline-none"
                                     required
                                 />
@@ -58,7 +61,7 @@ const Contact = () => {
                                 <textarea
                                     placeholder="Write Message"
                                     className="px-2 pt-3 bg-white w-full text-gray-800 text-sm border-b border-gray-300 focus:border-blue-600 outline-none"
-                                    defaultValue={""}
+                                    defaultValue=""
                                     required
                                 />
                             </div>
@@ -121,25 +124,19 @@ const Contact = () => {
                             </li>
                         </ul>
                     </div>
+                    
                     <div className="z-10 relative h-full max-md:min-h-[350px]">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3358.7068487003967!2d39.18041480000001!3d21.527613700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cfc481de293b%3A0x3489a505bd920d71!2sGulf%20Plaza%2C%20Al%20Sharafeyah%2C%20Jeddah%2023218%2C%20Saudi%20Arabia!5e1!3m2!1sen!2sin!4v1737213545166!5m2!1sen!2sin"
                             className="left-0 top-0 h-full w-full"
                             style={{ border: 0 }}
-                            allowFullScreen={true}
+                            allowFullScreen
                         />
                     </div>
                 </div>
             </div>
-
-
         </section>
-
-
-
-
-
-    )
-}
+    );
+};
 
 export default Contact;

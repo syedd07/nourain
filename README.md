@@ -57,9 +57,9 @@ Cutting-edge digital signage solutions that engage audiences with dynamic conten
 
 ## Technologies Used
 
-- **Front-End:** React, TypeScript, Tailwind CSS
+- **Front-End:** React, TypeScript, Nextjs, Tailwind CSS
 - **Build Tools:** Vite
-- **Version Control:** Git & GitHub
+- **Version Control:** Git, GitHub & Heruko CLI
 - **Design:** SVG, Responsive Design Principles
 
 ## Getting Started

@@ -6,16 +6,20 @@ import Services from "@/components/Services/Services";
 import Footer from "@/components/Footer/Footer";
 import Features from "@/components/Feature/Features";
 import Contact from "@/components/contact/contact";
+
+
 export default function Home() {
   return (
     <>
-    <Header />
-    <Hero />
-    <Services />
-    <Features />
-    <Contact />
-    <Footer />
-      
+      <div className="relative flex min-h-screen flex-col">
+        <Header />
+        <main className="flex-1">
+          <Hero />
+          <Services />
+          <Features />
+          <Contact />
+        </main>
+      </div>
     </>
   )
 }

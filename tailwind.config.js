@@ -5,22 +5,23 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      // colors: {
-      //   // Custom soft white background color
-      //   softWhite: '#FAFAFA', // You can adjust this hex value as needed
-
-      //   // Optionally, you can customize primary and secondary colors
-      //   primary: {
-      //     light: '#3B82F6',
-      //     DEFAULT: '#1E3A8A',
-      //     dark: '#1E40AF',
-      //   },
-      //   secondary: {
-      //     light: '#FBBF24',
-      //     DEFAULT: '#F59E0B',
-      //     dark: '#D97706',
-      //   },
-      // },
+      colors: {
+        text: '#0c0207',
+        background: '#f6f2f4',
+        primary: '#533afa',
+        secondary: '#53d858',
+        accent: '#5e8a41',
+      },
+      animation: {
+        rotate: 'rotate 5s linear infinite',
+      },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg) scale(10)' },
+          '100%': { transform: 'rotate(-360deg) scale(10)' },
+        },
+      },  
+      
 
     screens: {
       sm: "640px",
