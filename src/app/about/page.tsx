@@ -1,7 +1,6 @@
 'use client';
 import React from "react";
 import Services from "@/components/Services/Services";
-import exp from "constants";
 
 
 const AboutPage: React.FC = () => {

@@ -2,7 +2,9 @@
 
 const colors = require("tailwindcss/colors");
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -12,13 +14,31 @@ module.exports = {
         secondary: '#53d858',
         accent: '#5e8a41',
       },
+      variants: {
+        extend: {
+          transitionProperty: {
+            'height': 'height',
+            'spacing': 'margin, padding',
+          }
+        }
+      },
       animation: {
         rotate: 'rotate 5s linear infinite',
+        fadeIn: 'fadeIn 0.4s ease forwards',
+        fadeOut: 'fadeOut 0.4s ease forwards',
       },
       keyframes: {
         rotate: {
           '0%': { transform: 'rotate(0deg) scale(10)' },
           '100%': { transform: 'rotate(-360deg) scale(10)' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeOut: {
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' },
         },
       },  
       
@@ -86,5 +106,5 @@ module.exports = {
     },
   },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-rtl')],
 };

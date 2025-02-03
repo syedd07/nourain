@@ -34,13 +34,8 @@ const Carousel = () => {
 
     return (
         <section
-            className="
-      relative
-      w-full
-      h-56 sm:h-64 md:h-72 lg:h-96
-      m-0 p-0
-      overflow-hidden
-    "
+            className="relative  h-[40vh] md:h-[60vh]
+                 mt-[60px] md:mt-20 bg-cover bg-center mb-8 overflow-hidden"
         >
             {/* Slides */}
             {images.map((image, index) => (

@@ -1,0 +1,10 @@
+{
+    "NavbarLinks": {
+        "Home": "Home",
+        "About": "About",
+        "Solution": "Solution",
+        "Process": "Process",
+        "Services": "Services",
+        "Contact": "Contact"
+    }
+}

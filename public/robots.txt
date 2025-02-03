@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nourain.ae
+
+# Sitemaps
+Sitemap: https://nourain.ae/sitemap.xml

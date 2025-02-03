@@ -233,3 +233,9 @@ button {
 .animate__delay-1s {
   animation-delay: 1s;
 }
+
+/* Language Switcher */
+html[dir="rtl"] {
+  /* Example: Set the default text alignment to right */
+  text-align: right;
+}
