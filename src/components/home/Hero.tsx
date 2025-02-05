@@ -2,7 +2,6 @@
 import React from "react";
 
 export default function Hero() {
-  // Memoize texts so that the dependency doesn't change on every render
   const texts = React.useMemo(() => ["Signages", "HVAC", "and more!"], []);
 
   const [index, setIndex] = React.useState(0);
@@ -37,12 +36,13 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black to-transparent opacity-70"></div>
       <div className="container relative z-10 text-center text-white py-16 md:py-24 px-4 md:px-0">
         <h1 className="mb-4 text-4xl md:text-6xl font-bold drop-shadow-lg">
-          Welcome to{" "}
+          Welcome to {" "}
+          <br className="block md:hidden" />
           <span
-            className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]
+            className="whitespace-nowrap md:whitespace-normal bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]
                          from-purple-200 via-pink-50 to-teal-700 bg-clip-text text-transparent"
           >
-           Al- Nourain
+            Al- Nourain
           </span>
         </h1>
         <p className="mb-6 text-base md:text-2xl">

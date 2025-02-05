@@ -52,7 +52,7 @@ export default function SolutionsPage() {
 
       {/* Products */}
       <section className="container mx-auto">
-        <h1 className="text-4xl font-bold text-[#3f3f3f] tracking-tighter sm:text-5xl text-center">
+        <h1 className="text-4xl mb-32 font-bold text-[#3f3f3f] tracking-tighter sm:text-5xl text-center">
           Our Products
         </h1>
 

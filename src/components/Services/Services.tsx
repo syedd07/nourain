@@ -133,7 +133,7 @@ const Services: React.FC = () => {
   return (
     <>
       {/* Services Section */}
-      <section className="py-12 px-4 sm:px-10 mx-8 bg-gray-100 rounded-lg shadow-[0px_1px_100px_0px_rgba(246,_242,_244,_1)]">
+      <section className="py-12 px-4 sm:px-10 mx-8 bg-gray-100 rounded-lg">
         <h1
           className="mb-8 mt-32 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
           style={{ cursor: "url('/images/thinking.png') 32 32, auto" }}
@@ -197,7 +197,7 @@ const Services: React.FC = () => {
               title={card.title}
               body={card.body}
               image={card.image}
-              link={card.link} // Pass the link prop to the Card component
+          link={card.link}
             />
           ))}
         </div>
